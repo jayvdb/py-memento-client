@@ -24,6 +24,7 @@ matrix:
             - python-lxml
             - python-pytest
             - python-pytest-xdist
+            - python-mock
       install:
         - /usr/bin/pip --version
         - /usr/bin/pip list
