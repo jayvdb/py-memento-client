@@ -69,7 +69,7 @@ setup(
     author="Harihar Shankar, Shawn M. Jones, Herbert Van de Sompel",
     author_email="prototeam@googlegroups.com",
     install_requires=['requests>=2.7.0'],
-    tests_require=['pytest-xdist', 'pytest', 'mock'],
+    tests_require=['pytest', 'mock'],
     cmdclass={
         'test': PyTest,
         'cleanall': BetterClean
