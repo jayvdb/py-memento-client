@@ -18,10 +18,10 @@ matrix:
           sources:
             - debian-sid
           packages:
-            - python2-requests
-            - python2-lxml
-            - python2-pytest
-            - python2-pytest-xdist
+            - python-requests
+            - python-lxml
+            - python-pytest
+            - python-pytest-xdist
       install: true
 
 install:
