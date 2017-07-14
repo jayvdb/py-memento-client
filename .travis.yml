@@ -19,6 +19,7 @@ matrix:
           sources:
             - debian-sid
           packages:
+            - python-pip
             - python-requests
             - python-lxml
             - python-pytest
