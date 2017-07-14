@@ -27,7 +27,7 @@ matrix:
       install:
         - /usr/bin/pip --version
         - /usr/bin/pip list
-        - /usr/bin/pip install --no-deps .
+        - /usr/bin/pip install --user --no-deps .
 
 install:
     - "pip install requests"
