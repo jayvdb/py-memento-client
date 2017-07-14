@@ -11,9 +11,7 @@ env:
 
 matrix:
   include:
-    - python: 2.7
-      virtualenv:
-        system_site_packages: true
+    - language: generic
       dist: trusty
       sudo: required
       addons:
