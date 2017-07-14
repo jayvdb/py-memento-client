@@ -28,7 +28,7 @@ class PyTest(TestCommand):
         import multiprocessing
         procs = multiprocessing.cpu_count()
 
-        if procs > 1:
+        if procs > 100:
             if type(self.pytest_args) == list:
                 self.pytest_args.append("-n " + str(procs))
             elif type(self.pytest_args) == str:
