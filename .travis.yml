@@ -24,9 +24,9 @@ matrix:
             - python-pytest
             - python-pytest-xdist
       install:
-        - pip --version
-        - pip list
-        - pip install .
+        - /usr/bin/pip --version
+        - /usr/bin/pip list
+        - /usr/bin/pip install --no-deps .
 
 install:
     - "pip install requests"
@@ -34,4 +34,4 @@ install:
     - "pip install -U pytest pytest-xdist"
     - "pip install ."
 script:
-    - pytest
+    - /usr/bin/pytest
