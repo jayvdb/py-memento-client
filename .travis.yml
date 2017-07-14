@@ -9,8 +9,7 @@ python:
 env:
     - DEBUG_MEMENTO_CLIENT=1
 install:
-    - pip install -U setuptools pip 
-    - pip install requests lxml pytest-xdist
+    - pip install -U setuptools pip pytest pytest-xdist requests lxml
 script:
     - python setup.py test
     - pip install .
