@@ -23,7 +23,10 @@ matrix:
             - python-lxml
             - python-pytest
             - python-pytest-xdist
-      install: pip install .
+      install:
+        - pip --version
+        - pip list
+        - pip install .
 
 install:
     - "pip install requests"
